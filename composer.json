@@ -1,0 +1,21 @@
+{
+    "name": "mahi/my-github",
+    "description": "A simple WordPress plugin that can track your github's public activities.",
+    "type": "wordpress-plugin",
+    "keywords": ["gitgub", "my github"],
+    "homepage": "https://github.com/aamahi/WP-GitHub-Job",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Abdullah Al Mahi",
+            "email": "hello@abdullahmahi.com",
+            "homepage": "https://github.com/aamahi/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "My\\GitHub\\": "includes/"
+        },
+      "files": []
+    }
+}
